@@ -122,8 +122,6 @@ public class genelkavramlar
         // sbyte ogrenci No; // Geçersiz: Boşluk içeremez
         // ```
         // 
-        // ---
-        // 
         // ### **Değişkenler (Variables)**
         // 
         // Değişkenler, program içinde kullanılacak verileri bellekte saklayan yapılardır. Bir değişkenin **veri tipi**, **ismi** ve **değeri** bulunur.
@@ -172,7 +170,6 @@ public class genelkavramlar
         // 1. `x + 1` işlemi yapılır, yani `5 + 1 = 6` hesaplanır.
         // 2. Elde edilen `6` değeri `x` değişkenine atanır.
         // 
-        // ---
         // 
         // ### **Özet:**
         // - **Tanıtıcılar**, değişken, metod, sınıf gibi yapılara verilen isimlerdir.
@@ -183,6 +180,31 @@ public class genelkavramlar
         // 
         // Bu bilgiler, **sınavda çıkabilecek temel kavramları hızlıca anlamanı sağlar**. Eğer belirli bir konu hakkında daha fazla açıklama istersen, haber ver! 📚🚀
         // 
+        //
+        // Erişim Belirleyiciler:
+        // Program içinde bazı değişken, metod veya yapıları dış erişime kapatmak için erişim belirleyiciler kullanılır. C#’ta 6 farklı erişim belirleyici vardır:
+        // 
+        // public: Her yerden erişilebilir.
+        // private: Sadece tanımlandığı sınıfta kullanılabilir.
+        // protected: Tanımlandığı sınıf ve türetilmiş sınıflardan erişilebilir.
+        // internal: Aynı derleme (assembly) içindeki kodlar tarafından erişilebilir.
+        // protected internal: Aynı derleme veya başka bir derlemede türetilmiş sınıflar tarafından erişilebilir.
+        // private protected: Aynı derlemedeki türetilmiş sınıflar tarafından erişilebilir.
+        // Sabitler (const):
+        // Değeri değişmeyen değişkenlerdir. const anahtar kelimesi ile tanımlanır ve bir kez atanır. Örneğin:
+        // 
+        // const double isikYili = 9.46E12;  
+        // Sabit bir değere sonradan yeni bir değer atanamaz.
+        // 
+        // Değerler (Literals):
+        // Değişkenlere atanan sayısal, karakter veya özel ifadeler değer (literal) olarak adlandırılır. Sayısal değerler ondalık, ikilik (0b), onaltılık (0x) tabanlarında tanımlanabilir. Örnek:
+        // 
+        // int ikilik = 0B1011;  
+        // int onaltilik = 0x98A5F0;  
+        // Ondalık ayıracı olarak . kullanılır. Büyük sayılar daha okunaklı olması için _ karakteri ile ayrılabilir:
+        // 
+        // long buyukSayi = 11_230_000_000L;
+        // C#’ta sayısal değerlerin okunurluğunu artırmak için Convert.ToDecimal fonksiyonu kullanılabilir
         // *//
     }
 }
