@@ -4,16 +4,22 @@ public class genelkavramlar
 {
     public static void genelkavram()
     {
+        //Kullanıcıdan Girdi Alma
+        Console.WriteLine("Adınızı Girin:");
+        string isim = Console.ReadLine();
+        Console.WriteLine("Yaşınızı Girin:");
+        int yas = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine($"Merhaba,{isim}! Yaşınız: {yas}");
         //*
         //C# dilindeki anahtar kelimeler, programlama sırasında belirli işlevleri yerine getirmek için kullanılan ve dilin söz diziminde özel anlamı olan kelimelerdir. İşte C#'ta kullanılan anahtar kelimeler ve kısa açıklamaları:
-        
+
         // Erişim Belirleyicileri (Access Modifiers)
         // private: Sadece tanımlandığı sınıf içinde erişilebilir.
         // protected: Tanımlandığı sınıf ve ondan türetilen sınıflar tarafından erişilebilir.
         // public: Her yerden erişilebilir.
         // internal: Aynı assembly (derleme) içindeki sınıflar tarafından erişilebilir.
         // protected internal: Hem türetilen sınıflar hem de aynı assembly içindeki sınıflar erişebilir.
-        
+
         // Veri Türleri (Data Types)
         // bool: Doğru (true) veya yanlış (false) değerlerini tutar.
         // byte: 8 bitlik işaretsiz tam sayı (0 ile 255 arasında).
@@ -32,7 +38,7 @@ public class genelkavramlar
         // object: Tüm veri türlerinin temel aldığı tür.
         // null: Bir değişkenin herhangi bir nesneye işaret etmediğini belirtir.
         // true / false: bool veri tipinin alabileceği iki değeri ifade eder.
-        
+
         // Kontrol Yapıları (Control Statements)
         // if: Koşullu ifadeler için kullanılır.
         // else: if bloğu sağlanmazsa çalışacak alternatif kod bloğu.
@@ -51,7 +57,7 @@ public class genelkavramlar
         // try: Hata yönetimi için bir kod bloğu oluşturur.
         // catch: try bloğunda hata oluşursa çalışacak kod bloğudur.
         // finally: try-catch yapısında, hata olsun veya olmasın çalıştırılacak bloktur.
-        
+
         // Sınıf ve Nesne Tabanlı Programlama (Object-Oriented Programming - OOP)
         // abstract: Soyut bir sınıf veya metod tanımlamak için kullanılır.
         // class: Yeni bir sınıf tanımlamak için kullanılır.
@@ -65,7 +71,7 @@ public class genelkavramlar
         // static: Bir sınıf veya metodu nesne oluşturmadan erişilebilir hale getirir.
         // readonly: Bir değişkenin yalnızca tanımlandığı anda veya constructor içinde değiştirilebileceğini belirtir.
         // override: Üst sınıftan gelen bir metodu yeniden tanımlamak için kullanılır.
-        
+
         // Diğer Anahtar Kelimeler
         // as: Tür dönüşümü yaparken kullanılır.
         // checked: Sayısal işlemlerde taşma olup olmadığını kontrol eder.
@@ -206,5 +212,6 @@ public class genelkavramlar
         // long buyukSayi = 11_230_000_000L;
         // C#’ta sayısal değerlerin okunurluğunu artırmak için Convert.ToDecimal fonksiyonu kullanılabilir
         // *//
+
     }
 }
